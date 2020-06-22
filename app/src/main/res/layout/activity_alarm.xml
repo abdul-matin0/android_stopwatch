@@ -59,8 +59,8 @@
         android:id="@+id/alarmIconActive"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="45dp"
-        android:layout_marginLeft="45dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginLeft="70dp"
         android:layout_marginBottom="10dp"
         android:background="@drawable/alarmicon_active"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -70,27 +70,15 @@
         android:id="@+id/stopwatch"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="25dp"
-        android:layout_marginLeft="25dp"
-        android:layout_marginEnd="25dp"
-        android:layout_marginRight="25dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginRight="70dp"
         android:layout_marginBottom="10dp"
         android:background="@drawable/stopwatch"
         android:onClick="openHomeActivity"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/clockBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@+id/alarmIconActive" />
-
-    <Button
-        android:id="@+id/clockBtn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="45dp"
-        android:layout_marginRight="45dp"
-        android:layout_marginBottom="10dp"
-        android:background="@drawable/clock"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
 
     <Button
         android:id="@+id/settingsBtn"
